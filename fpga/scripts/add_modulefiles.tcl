@@ -1,0 +1,1 @@
+set_param board.repoPaths [list "$env(CECAS_FPGA_DIR)/vivado-boards/new/board_files"]

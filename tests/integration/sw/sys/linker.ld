@@ -1,0 +1,99 @@
+/* Copyright 2022 ETH Zurich and University of Bologna.               */
+/* Solderpad Hardware License, Version 0.51, see LICENSE for details. */
+/* SPDX-License-Identifier: SHL-0.51                                  */
+
+/*======================================================================*/
+/* Proxy kernel linker script                                           */
+/*======================================================================*/
+/* This is the linker script used when building the proxy kernel. */
+
+/*----------------------------------------------------------------------*/
+/* Setup                                                                */
+/*----------------------------------------------------------------------*/
+
+/* The OUTPUT_ARCH command specifies the machine architecture where the
+   argument is one of the names used in the BFD library. More
+   specifically one of the entires in bfd/cpu-mips.c */
+
+OUTPUT_ARCH( "riscv" )
+ENTRY(_start)
+
+/*----------------------------------------------------------------------*/
+/* Memory layout                                                        */
+/*----------------------------------------------------------------------*/
+
+/*
+MEMORY
+{
+  SRAM (rwx) : ORIGIN = 0x80000000, LENGTH = 1M
+}
+*/
+
+/*----------------------------------------------------------------------*/
+/* Sections                                                             */
+/*----------------------------------------------------------------------*/
+
+SECTIONS
+{
+  /* set the base address at the beginnning of the RAM */
+  . = 0x80000000;
+
+  .tohost : { *(.tohost) }
+
+  . = 0x80000048;
+
+  . = 0x80020000;
+  .nocache_noshare_region : { *(.nocache_noshare_region) }
+  . = 0x80040000;
+  .nocache_share_region : { *(.nocache_share_region) }
+  . = 0x80060000;
+  .cache_share_region : { *(.cache_share_region) }
+  . = 0x80080000;
+  .cache_noshare_region : { *(.cache_noshare_region) }
+
+  . = 0x80100000;
+
+  .text.init : { *(.text.init) }
+  .text : { *(.text) }
+
+  /* Data and BSS placed after .text so that large BSS sections do not
+     conflict with the .text.init boot address (0x80100000).
+     The 256 MB simulation SRAM provides ample space for code and data. */
+  . = ALIGN(8);
+
+  /* data segment */
+  .data : { *(.cached_region_2) }
+
+  .sdata : {
+    __global_pointer$ = . + 0x800;
+    *(.srodata.cst16) *(.srodata.cst8) *(.srodata.cst4) *(.srodata.cst2) *(.srodata*)
+    *(.sdata .sdata.* .gnu.linkonce.s.*)
+  }
+
+  /* bss segment */
+  .sbss : {
+    *(.sbss .sbss.* .gnu.linkonce.sb.*)
+    *(.scommon)
+  }
+  .bss : { *(.bss) }
+
+  /* thread-local data segment */
+  .tdata :
+  {
+    _tls_data = .;
+    _tdata_begin = .;
+    *(.tdata.begin)
+    *(.tdata)
+    *(.tdata.end)
+    _tdata_end = .;
+  }
+  .tbss :
+  {
+    *(.tbss)
+    *(.tbss.end)
+    _tbss_end = .;
+  }
+
+  /* End of uninitalized data segment */
+  _end = .;
+}

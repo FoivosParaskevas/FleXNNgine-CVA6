@@ -1,0 +1,751 @@
+COREMARK_MULTICORE Enabled
+
+----------- Encryption Enabled 1 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 3 2K performance run parameters for coremark.
+Core: 1 CoreMark Size    : 666
+Core: 0 Total ticks      : 537355
+Core: 2 Total ticks      : 537247
+Core: 3 CoreMark Size    : 666
+Core: 1 Total ticks      : 537585
+Core: 0 Total time (secs): 0
+Core: 3 Total ticks      : 537662
+Core: 0 Iterations       : 1
+Core: 3 Total time (secs): 0
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Iterations       : 1
+Core: 2 Total time (secs): 0
+Core: 3 Compiler version : GCC13.2.0
+Core: 2 Iterations       : 1
+Core: 1 Total time (secs): 0
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 Iterations       : 1
+Core: 0 Memory location  : STACK
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 seedcrc          : 0xe9f5
+Core: 2 Memory location  : STACK
+Core: 0 [0]crclist       : 0xe714
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 seedcrc          : 0xe9f5
+Core: 3 Memory location  : STACK
+Core: 2 [0]crclist       : 0xe714
+Core: 3 seedcrc          : 0xe9f5
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 3 [0]crclist       : 0xe714
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 [0]crcfinal      : 0xe714
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 [0]crcfinal      : 0xe714
+Core: 1 Memory location  : STACK
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 seedcrc          : 0xe9f5
+Core: 3 [0]crcfinal      : 0xe714
+Core: 2 CoreMark/MHz 1.0 : 1.86 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 [0]crclist       : 0xe714
+Core: 0 CoreMark/MHz 1.0 : 1.86 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcfinal      : 0xe714
+Core: 3 CoreMark/MHz 1.0 : 1.85 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 CoreMark/MHz 1.0 : 1.86 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+
+----------- Encryption Disabled 1 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 1 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 3 2K performance run parameters for coremark.
+Core: 2 Total ticks      : 508435
+Core: 1 Total ticks      : 508632
+Core: 2 Total time (secs): 0
+Core: 3 CoreMark Size    : 666
+Core: 0 Total ticks      : 508709
+Core: 3 Total ticks      : 508497
+Core: 1 Total time (secs): 0
+Core: 2 Iterations       : 1
+Core: 0 Total time (secs): 0
+Core: 1 Iterations       : 1
+Core: 2 Compiler version : GCC13.2.0
+Core: 0 Iterations       : 1
+Core: 1 Compiler version : GCC13.2.0
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Total time (secs): 0
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Iterations       : 1
+Core: 1 Memory location  : STACK
+Core: 0 Memory location  : STACK
+Core: 2 Memory location  : STACK
+Core: 3 Compiler version : GCC13.2.0
+Core: 1 seedcrc          : 0xe9f5
+Core: 2 seedcrc          : 0xe9f5
+Core: 0 seedcrc          : 0xe9f5
+Core: 1 [0]crclist       : 0xe714
+Core: 2 [0]crclist       : 0xe714
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 3 Memory location  : STACK
+Core: 0 [0]crclist       : 0xe714
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcfinal      : 0xe714
+Core: 3 [0]crclist       : 0xe714
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcfinal      : 0xe714
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 2 CoreMark/MHz 1.0 : 1.96 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 [0]crcfinal      : 0xe714
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 [0]crcfinal      : 0xe714
+Core: 1 CoreMark/MHz 1.0 : 1.96 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 CoreMark/MHz 1.0 : 1.96 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 CoreMark/MHz 1.0 : 1.96 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+-------------------------------------------------------------
+
+----------- Encryption Enabled 2 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 1 CoreMark Size    : 666
+Core: 3 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 0 Total ticks      : 987437
+Core: 3 Total ticks      : 987329
+Core: 2 Total ticks      : 987237
+Core: 3 Total time (secs): 0
+Core: 0 Total time (secs): 0
+Core: 2 Total time (secs): 0
+Core: 0 Iterations       : 2
+Core: 3 Iterations       : 2
+Core: 0 Compiler version : GCC13.2.0
+Core: 2 Iterations       : 2
+Core: 1 Total ticks      : 987529
+Core: 2 Compiler version : GCC13.2.0
+Core: 3 Compiler version : GCC13.2.0
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Total time (secs): 0
+Core: 0 Memory location  : STACK
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 seedcrc          : 0xe9f5
+Core: 2 Memory location  : STACK
+Core: 0 [0]crclist       : 0xe714
+Core: 3 Memory location  : STACK
+Core: 1 Iterations       : 2
+Core: 2 seedcrc          : 0xe9f5
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 [0]crclist       : 0xe714
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 1 Memory location  : STACK
+Core: 0 [0]crcfinal      : 0x72be
+Core: 3 [0]crclist       : 0xe714
+Core: 1 seedcrc          : 0xe9f5
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 1 [0]crclist       : 0xe714
+Core: 2 [0]crcfinal      : 0x72be
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 CoreMark/MHz 1.0 : 2.02 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 [0]crcfinal      : 0x72be
+Core: 0 CoreMark/MHz 1.0 : 2.02 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 [0]crcfinal      : 0x72be
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 CoreMark/MHz 1.0 : 2.02 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 CoreMark/MHz 1.0 : 2.02 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+
+----------- Encryption Disabled 2 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 1 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 3 CoreMark Size    : 666
+Core: 0 Total ticks      : 958626
+Core: 1 Total ticks      : 958434
+Core: 2 CoreMark Size    : 666
+Core: 0 Total time (secs): 0
+Core: 1 Total time (secs): 0
+Core: 3 Total ticks      : 958666
+Core: 0 Iterations       : 2
+Core: 3 Total time (secs): 0
+Core: 2 Total ticks      : 958237
+Core: 1 Iterations       : 2
+Core: 3 Iterations       : 2
+Core: 2 Total time (secs): 0
+Core: 0 Compiler version : GCC13.2.0
+Core: 2 Iterations       : 2
+Core: 3 Compiler version : GCC13.2.0
+Core: 2 Compiler version : GCC13.2.0
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler version : GCC13.2.0
+Core: 0 Memory location  : STACK
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 seedcrc          : 0xe9f5
+Core: 2 Memory location  : STACK
+Core: 3 Memory location  : STACK
+Core: 0 [0]crclist       : 0xe714
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crclist       : 0xe714
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 1 Memory location  : STACK
+Core: 0 [0]crcfinal      : 0x72be
+Core: 2 seedcrc          : 0xe9f5
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 seedcrc          : 0xe9f5
+Core: 2 [0]crclist       : 0xe714
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crcfinal      : 0x72be
+Core: 1 [0]crclist       : 0xe714
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 0 CoreMark/MHz 1.0 : 2.08 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcfinal      : 0x72be
+Core: 3 CoreMark/MHz 1.0 : 2.08 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 2 [0]crcfinal      : 0x72be
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 CoreMark/MHz 1.0 : 2.08 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 2 CoreMark/MHz 1.0 : 2.08 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+-------------------------------------------------------------
+
+----------- Encryption Enabled 4 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 0 CoreMark Size    : 666
+Core: 2 2K performance run parameters for coremark.
+Core: 0 Total ticks      : 1886744
+Core: 2 CoreMark Size    : 666
+Core: 3 CoreMark Size    : 666
+Core: 2 Total ticks      : 1886606
+Core: 0 Total time (secs): 0
+Core: 2 Total time (secs): 0
+Core: 1 2K performance run parameters for coremark.
+Core: 3 Total ticks      : 1887499
+Core: 1 CoreMark Size    : 666
+Core: 2 Iterations       : 4
+Core: 3 Total time (secs): 0
+Core: 1 Total ticks      : 1887448
+Core: 3 Iterations       : 4
+Core: 0 Iterations       : 4
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 Total time (secs): 0
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Compiler version : GCC13.2.0
+Core: 1 Iterations       : 4
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Memory location  : STACK
+Core: 3 Memory location  : STACK
+Core: 2 seedcrc          : 0xe9f5
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 [0]crclist       : 0xe714
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Memory location  : STACK
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 0 Memory location  : STACK
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 seedcrc          : 0xe9f5
+Core: 2 [0]crcfinal      : 0x9f95
+Core: 1 seedcrc          : 0xe9f5
+Core: 0 seedcrc          : 0xe9f5
+Core: 3 [0]crclist       : 0xe714
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crclist       : 0xe714
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crcfinal      : 0x9f95
+Core: 2 CoreMark/MHz 1.0 : 2.12 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crclist       : 0xe714
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcfinal      : 0x9f95
+Core: 3 CoreMark/MHz 1.0 : 2.11 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcfinal      : 0x9f95
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 CoreMark/MHz 1.0 : 2.12 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 CoreMark/MHz 1.0 : 2.11 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+
+----------- Encryption Disabled 4 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 0 CoreMark Size    : 666
+Core: 1 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 2 CoreMark Size    : 666
+Core: 0 Total ticks      : 1857655
+Core: 2 Total ticks      : 1857758
+Core: 3 CoreMark Size    : 666
+Core: 1 CoreMark Size    : 666
+Core: 0 Total time (secs): 0
+Core: 2 Total time (secs): 0
+Core: 3 Total ticks      : 1857666
+Core: 0 Iterations       : 4
+Core: 1 Total ticks      : 1857820
+Core: 0 Compiler version : GCC13.2.0
+Core: 2 Iterations       : 4
+Core: 1 Total time (secs): 0
+Core: 3 Total time (secs): 0
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 Iterations       : 4
+Core: 3 Iterations       : 4
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler version : GCC13.2.0
+Core: 0 Memory location  : STACK
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Memory location  : STACK
+Core: 0 seedcrc          : 0xe9f5
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 seedcrc          : 0xe9f5
+Core: 3 Memory location  : STACK
+Core: 0 [0]crclist       : 0xe714
+Core: 2 [0]crclist       : 0xe714
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 [0]crclist       : 0xe714
+Core: 1 Memory location  : STACK
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 1 seedcrc          : 0xe9f5
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 1 [0]crclist       : 0xe714
+Core: 3 [0]crcfinal      : 0x9f95
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 [0]crcfinal      : 0x9f95
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 3 CoreMark/MHz 1.0 : 2.15 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 2 [0]crcfinal      : 0x9f95
+Core: 1 [0]crcfinal      : 0x9f95
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 CoreMark/MHz 1.0 : 2.15 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 CoreMark/MHz 1.0 : 2.15 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 2 CoreMark/MHz 1.0 : 2.15 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+-------------------------------------------------------------
+
+----------- Encryption Enabled 8 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 3 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 3 Total ticks      : 3685975
+Core: 2 Total ticks      : 3685952
+Core: 3 Total time (secs): 0
+Core: 0 Total ticks      : 3685240
+Core: 2 Total time (secs): 0
+Core: 1 CoreMark Size    : 666
+Core: 2 Iterations       : 8
+Core: 3 Iterations       : 8
+Core: 0 Total time (secs): 0
+Core: 1 Total ticks      : 3686290
+Core: 0 Iterations       : 8
+Core: 3 Compiler version : GCC13.2.0
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 Total time (secs): 0
+Core: 0 Compiler version : GCC13.2.0
+Core: 1 Iterations       : 8
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Memory location  : STACK
+Core: 0 Memory location  : STACK
+Core: 2 seedcrc          : 0xe9f5
+Core: 0 seedcrc          : 0xe9f5
+Core: 3 Memory location  : STACK
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 [0]crclist       : 0xe714
+Core: 1 Memory location  : STACK
+Core: 2 [0]crclist       : 0xe714
+Core: 1 seedcrc          : 0xe9f5
+Core: 3 seedcrc          : 0xe9f5
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 1 [0]crclist       : 0xe714
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 [0]crclist       : 0xe714
+Core: 2 [0]crcfinal      : 0xccd1
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcfinal      : 0xccd1
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcfinal      : 0xccd1
+Core: 2 CoreMark/MHz 1.0 : 2.17 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 CoreMark/MHz 1.0 : 2.17 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 CoreMark/MHz 1.0 : 2.17 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 [0]crcfinal      : 0xccd1
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 CoreMark/MHz 1.0 : 2.17 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+
+----------- Encryption Disabled 8 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 1 CoreMark Size    : 666
+Core: 2 2K performance run parameters for coremark.
+Core: 3 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 1 Total ticks      : 3656775
+Core: 0 Total ticks      : 3656157
+Core: 3 Total ticks      : 3656463
+Core: 2 Total ticks      : 3656486
+Core: 1 Total time (secs): 0
+Core: 0 Total time (secs): 0
+Core: 2 Total time (secs): 0
+Core: 0 Iterations       : 8
+Core: 2 Iterations       : 8
+Core: 1 Iterations       : 8
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Total time (secs): 0
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Compiler version : GCC13.2.0
+Core: 3 Iterations       : 8
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler version : GCC13.2.0
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Memory location  : STACK
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 Memory location  : STACK
+Core: 3 Memory location  : STACK
+Core: 1 seedcrc          : 0xe9f5
+Core: 2 seedcrc          : 0xe9f5
+Core: 1 [0]crclist       : 0xe714
+Core: 2 [0]crclist       : 0xe714
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 0 Memory location  : STACK
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 3 [0]crclist       : 0xe714
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 seedcrc          : 0xe9f5
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcfinal      : 0xccd1
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 [0]crclist       : 0xe714
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcfinal      : 0xccd1
+Core: 3 [0]crcfinal      : 0xccd1
+Core: 1 CoreMark/MHz 1.0 : 2.18 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 [0]crcfinal      : 0xccd1
+Core: 2 CoreMark/MHz 1.0 : 2.18 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 CoreMark/MHz 1.0 : 2.18 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 0 CoreMark/MHz 1.0 : 2.18 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+-------------------------------------------------------------
+
+----------- Encryption Enabled 16 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 3 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 3 Total ticks      : 7282407
+Core: 2 Total ticks      : 7282384
+Core: 3 Total time (secs): 0
+Core: 2 Total time (secs): 0
+Core: 3 Iterations       : 16
+Core: 0 Total ticks      : 7281671
+Core: 3 Compiler version : GCC13.2.0
+Core: 0 Total time (secs): 0
+Core: 2 Iterations       : 16
+Core: 0 Iterations       : 16
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 CoreMark Size    : 666
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Total ticks      : 7282722
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Memory location  : STACK
+Core: 1 Total time (secs): 0
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Iterations       : 16
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Memory location  : STACK
+Core: 3 [0]crclist       : 0xe714
+Core: 2 seedcrc          : 0xe9f5
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 1 Memory location  : STACK
+Core: 3 [0]crcfinal      : 0xdd50
+Core: 2 [0]crclist       : 0xe714
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 1 seedcrc          : 0xe9f5
+Core: 0 Memory location  : STACK
+Core: 1 [0]crclist       : 0xe714
+Core: 0 seedcrc          : 0xe9f5
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 3 CoreMark/MHz 1.0 : 2.19 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 0 [0]crclist       : 0xe714
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcfinal      : 0xdd50
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcfinal      : 0xdd50
+Core: 0 [0]crcfinal      : 0xdd50
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 CoreMark/MHz 1.0 : 2.19 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 0 CoreMark/MHz 1.0 : 2.19 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 CoreMark/MHz 1.0 : 2.19 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+
+----------- Encryption Disabled 16 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 1 2K performance run parameters for coremark.
+Core: 2 CoreMark Size    : 666
+Core: 3 CoreMark Size    : 666
+Core: 0 CoreMark Size    : 666
+Core: 2 Total ticks      : 7254076
+Core: 0 Total ticks      : 7253278
+Core: 3 Total ticks      : 7253915
+Core: 2 Total time (secs): 0
+Core: 1 CoreMark Size    : 666
+Core: 0 Total time (secs): 0
+Core: 2 Iterations       : 16
+Core: 1 Total ticks      : 7253904
+Core: 0 Iterations       : 16
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 Total time (secs): 0
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Total time (secs): 0
+Core: 1 Iterations       : 16
+Core: 3 Iterations       : 16
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler version : GCC13.2.0
+Core: 2 Memory location  : STACK
+Core: 3 Compiler version : GCC13.2.0
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 seedcrc          : 0xe9f5
+Core: 0 Memory location  : STACK
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 [0]crclist       : 0xe714
+Core: 1 Memory location  : STACK
+Core: 0 seedcrc          : 0xe9f5
+Core: 1 seedcrc          : 0xe9f5
+Core: 0 [0]crclist       : 0xe714
+Core: 3 Memory location  : STACK
+Core: 1 [0]crclist       : 0xe714
+Core: 3 seedcrc          : 0xe9f5
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 3 [0]crclist       : 0xe714
+Core: 0 [0]crcfinal      : 0xdd50
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcfinal      : 0xdd50
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 [0]crcfinal      : 0xdd50
+Core: 0 CoreMark/MHz 1.0 : 2.20 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 [0]crcfinal      : 0xdd50
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 CoreMark/MHz 1.0 : 2.20 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 CoreMark/MHz 1.0 : 2.20 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 CoreMark/MHz 1.0 : 2.20 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+-------------------------------------------------------------
+
+----------- Encryption Enabled 32 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 0 Total ticks      : 14474442
+Core: 1 2K performance run parameters for coremark.
+Core: 2 Total ticks      : 14475154
+Core: 3 CoreMark Size    : 666
+Core: 0 Total time (secs): 0
+Core: 3 Total ticks      : 14475177
+Core: 1 CoreMark Size    : 666
+Core: 2 Total time (secs): 0
+Core: 1 Total ticks      : 14475492
+Core: 3 Total time (secs): 0
+Core: 2 Iterations       : 32
+Core: 0 Iterations       : 32
+Core: 1 Total time (secs): 0
+Core: 3 Iterations       : 32
+Core: 0 Compiler version : GCC13.2.0
+Core: 1 Iterations       : 32
+Core: 3 Compiler version : GCC13.2.0
+Core: 2 Compiler version : GCC13.2.0
+Core: 1 Compiler version : GCC13.2.0
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 Memory location  : STACK
+Core: 3 Memory location  : STACK
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 seedcrc          : 0xe9f5
+Core: 2 Memory location  : STACK
+Core: 1 Memory location  : STACK
+Core: 2 seedcrc          : 0xe9f5
+Core: 0 [0]crclist       : 0xe714
+Core: 1 seedcrc          : 0xe9f5
+Core: 2 [0]crclist       : 0xe714
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 3 seedcrc          : 0xe9f5
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 3 [0]crclist       : 0xe714
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcfinal      : 0x8799
+Core: 1 [0]crclist       : 0xe714
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 3 [0]crcfinal      : 0x8799
+Core: 1 [0]crcfinal      : 0x8799
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 0 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 2 [0]crcfinal      : 0x8799
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 2 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+
+----------- Encryption Disabled 32 iterations -----------
+Core: 0 2K performance run parameters for coremark.
+Core: 2 2K performance run parameters for coremark.
+Core: 3 2K performance run parameters for coremark.
+Core: 0 CoreMark Size    : 666
+Core: 2 CoreMark Size    : 666
+Core: 1 2K performance run parameters for coremark.
+Core: 2 Total ticks      : 14447649
+Core: 0 Total ticks      : 14446953
+Core: 1 CoreMark Size    : 666
+Core: 0 Total time (secs): 0
+Core: 1 Total ticks      : 14447118
+Core: 0 Iterations       : 32
+Core: 2 Total time (secs): 0
+Core: 1 Total time (secs): 0
+Core: 3 CoreMark Size    : 666
+Core: 0 Compiler version : GCC13.2.0
+Core: 3 Total ticks      : 14447373
+Core: 1 Iterations       : 32
+Core: 2 Iterations       : 32
+Core: 1 Compiler version : GCC13.2.0
+Core: 3 Total time (secs): 0
+Core: 2 Compiler version : GCC13.2.0
+Core: 3 Iterations       : 32
+Core: 0 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 3 Compiler version : GCC13.2.0
+Core: 0 Memory location  : STACK
+Core: 2 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 0 seedcrc          : 0xe9f5
+Core: 2 Memory location  : STACK
+Core: 3 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 1 Compiler flags   : -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32 
+Core: 2 seedcrc          : 0xe9f5
+Core: 1 Memory location  : STACK
+Core: 2 [0]crclist       : 0xe714
+Core: 1 seedcrc          : 0xe9f5
+Core: 3 Memory location  : STACK
+Core: 2 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crclist       : 0xe714
+Core: 1 [0]crclist       : 0xe714
+Core: 3 seedcrc          : 0xe9f5
+Core: 1 [0]crcmatrix     : 0x1fd7
+Core: 2 [0]crcstate      : 0x8e3a
+Core: 3 [0]crclist       : 0xe714
+Core: 2 [0]crcfinal      : 0x8799
+Core: 1 [0]crcstate      : 0x8e3a
+Core: 2 Correct operation validated. See README.md for run and reporting rules.
+Core: 1 [0]crcfinal      : 0x8799
+Core: 3 [0]crcmatrix     : 0x1fd7
+Core: 0 [0]crcmatrix     : 0x1fd7
+Core: 2 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 1 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 [0]crcstate      : 0x8e3a
+Core: 3 [0]crcstate      : 0x8e3a
+Core: 0 [0]crcfinal      : 0x8799
+Core: 3 [0]crcfinal      : 0x8799
+Core: 1 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 3 Correct operation validated. See README.md for run and reporting rules.
+Core: 0 Correct operation validated. See README.md for run and reporting rules.
+Core: 3 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+Core: 0 CoreMark/MHz 1.0 : 2.21 / GCC13.2.0 -Werror -g  -I../../sw/include  -I../../sw/sys -L../../libs -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O3 -g -ffast-math -fno-common -fno-builtin-printf ../../sw/sys/syscalls.c -static -nostdlib ../../sw/sys/crt.S -nostartfiles -lm -lgcc -T ../../sw/sys/linker.ld -march=rv64imafdc_zifencei -lintegr -Xlinker -Map=main.map -fno-tree-loop-distribute-patterns -fvisibility=hidden -funroll-all-loops -ffunction-sections -fdata-sections -Wl,-gc-sections -falign-jumps=32 -falign-functions=32  / UNSPECIFIED(STACK) RATIOS:1
+-------------------------------------------------------------

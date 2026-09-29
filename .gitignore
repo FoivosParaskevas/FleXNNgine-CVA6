@@ -1,0 +1,16 @@
+*.sublime-*
+*.log
+*.jou
+vivado.jou
+tools
+install64
+cva6-sdk
+.claude
+fpga/work-dpi
+fpga/xilinx/float32_mac/float32_mac.gen
+fpga/xilinx/float32_mac/float32_mac.srcs
+tests/integration/work-dpi
+tests/integration/work-vcs
+tests/integration/testlist/flexnngine-driver
+/paper/*
+!/paper/bench/

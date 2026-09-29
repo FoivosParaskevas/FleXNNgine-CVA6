@@ -1,0 +1,68 @@
+# Copyright 2022 ETH Zurich and University of Bologna.
+# Solderpad Hardware License, Version 0.51, see LICENSE for details.
+# SPDX-License-Identifier: SHL-0.51
+
+MKFILE_DIR = $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
+
+# Common variables
+SPIKE_ROOT ?= /opt/riscv-isa-sim
+RISCV ?= /opt/riscv
+target = cv64a6_imafdc_sv39_wb
+
+export XCELIUM_HOME=/dev/null
+include $(MKFILE_DIR)/../modules/cva6/Makefile
+
+TEST_REPORT = result.rpt
+TEST_LOG = sim.log
+
+RV_TOOL_PREFIX = riscv64-unknown-elf-
+RV_GCC := $(RV_TOOL_PREFIX)gcc -mabi=lp64d -march=rv64imafdc_zifencei
+RV_AR := $(RV_TOOL_PREFIX)ar
+RV_OBJDUMP := $(RV_TOOL_PREFIX)objdump
+RV_OBJCOPY := $(RV_TOOL_PREFIX)objcopy
+
+# questasim
+VSIM   = vsim
+VLOG   = vlog
+VOPT   = vopt
+VCOM   = vcom
+VLIB   = vlib
+VMAP   = vmap
+VCOVER = vcover
+
+# verilator
+VERILATOR = verilator
+VERILATE ?= 0
+
+# common coverage variables
+COVERAGE_DIR         = coverage
+MERGED_UCDB          = $(COVERAGE_DIR)/merged_coverage.ucdb
+COVERAGE_REPORT      = $(COVERAGE_DIR)/coverage.rpt
+COVERAGE_REPORT_HTML = $(COVERAGE_DIR)/html
+
+# Check tools - inspired by https://stackoverflow.com/questions/5618615/check-if-a-program-exists-from-a-makefile
+EXECUTABLES = $(GCC) 
+#EXECUTABLES += $(VSIM) 
+ifeq ($(VERILATE), 1)
+#        EXECUTABLES += VERILATOR
+endif
+
+K := $(foreach exec,$(EXECUTABLES),\
+        $(if $(shell which $(exec)),some string,$(error "No $(exec) in PATH")))
+
+GCC_VERSION := $(shell gcc -dumpversion | cut -d. -f1)
+ifeq ($(shell test $(GCC_VERSION) -lt 8 && echo y), y)
+$(error "Wrong gcc version ($(GCC_VERSION)) - need gcc >= 8")
+endif
+
+# Check number of cores
+NB_CORES ?= 1
+
+ifneq ($(NB_CORES), 1)
+ifneq ($(NB_CORES), 2)
+ifneq ($(NB_CORES), 4)
+$(error "NB_CORES must be 1, 2, or 4")
+endif
+endif
+endif
+
